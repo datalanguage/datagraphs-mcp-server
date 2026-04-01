@@ -1,0 +1,19 @@
+{
+  "name": "datagraphs-client-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for interacting with Data Graphs knowledge graph platform",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "datagraphs", "knowledge-graph"],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@datalanguage/datagraphs-client": "^1.0.20",
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
