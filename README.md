@@ -21,6 +21,21 @@ npx @datalanguage/datagraphs-mcp-server
 
 ## Configuration
 
+### Obtaining Credentials
+
+To generate the API key, client ID, and client secret:
+
+1. Sign in to Data Graphs and open your project.
+2. Click **Manage Project**.
+3. Go to **Applications** and click **Add Application**.
+4. Once the application is created, the API key, client ID, and client secret will be displayed.
+
+> **Important:** The client secret is shown **only once** at creation time. Copy it immediately and store it somewhere secure — if lost, you will need to rotate the credentials or create a new application to obtain a new secret.
+
+Your project ID can also be found on the project page in Data Graphs.
+
+### Environment Variables
+
 The server reads credentials from environment variables:
 
 | Variable                   | Required | Description                                       |
